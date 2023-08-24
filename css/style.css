@@ -74,12 +74,11 @@ main {
 .navigation-menu {
     display: flex;
     gap: 40px;
-    margin-right: 332px ;
+    margin-right: 332px;
+    padding: 24px 0;
         
 }
-.nav-menu-item {
-    padding: 24px 0; 
-}
+
 
 .studio {
     color: #2E2F42;
@@ -91,6 +90,7 @@ main {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
     
 }
 .menu:active, .menu:hover, .menu:focus  {
