@@ -49,6 +49,7 @@ main {
 .container-nav {
     background: #FFF;
     display: flex;
+    align-items: center;
     
 }
 .navigation {
@@ -58,7 +59,7 @@ main {
 
 }
 .logo {
-    display: flex;
+    
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-size: 18px;
@@ -66,21 +67,16 @@ main {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    padding: 24px 0;
+}
+.navigation .logo {
     margin-right: 76px;
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
-
 }
 .navigation-menu {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
-    
-        
 }
-.nav-menu-item {
-    padding: 24px 0;
-}
+
 
 .studio {
     color: #2E2F42;
@@ -93,6 +89,7 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
     
     
 }
@@ -106,11 +103,13 @@ main {
 .contacts-list {
     display: flex;
     align-items: flex-end;
-    margin-left: auto;
-    gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     
+    gap: 40px;
+    
+    
+}
+address {
+    margin-left: auto;
 }
 .contacts-link {
     color: #434455;
@@ -134,8 +133,9 @@ main {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-bottom: 48px;
-    margin: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 496px;
 }
 .button {
@@ -269,10 +269,8 @@ width: calc((100% - 24px * 3) / 4);
 }
 .portfolio-item {
     background: #FFF;
-    flex-direction: column;
-    align-items: flex-start;
     width: calc((100% - 24px * 2) / 3);
-    margin-bottom: 48px;
+    
     
 }
 .portfolio-subtitle {
